@@ -1,63 +1,27 @@
+import { useMemo } from 'react';
 import { Text, View } from 'react-native';
-
+import { useStore } from 'zustand';
 import { Berkk, BerkkFonts } from '@/constants/theme';
+import { completedDays, formatDay, monthDays, shiftMonth } from '@/data/calendar';
+import { useLocalDay } from '@/hooks/use-local-day';
+import { workoutStore } from '@/store/workout';
 
-const MONTH_NAMES = ['Jul', 'Aug', 'Sep'];
-
-// Ported verbatim from the `renderVals()` pattern/strong arrays in
-// BERKK v5 Nachtglas.dc.html — 5 rows x 7 cols per month, flat index order.
-const PATTERN: number[][] = [
-  [0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0],
-  [0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0],
-  [0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0],
-];
-const STRONG: number[][] = [
-  [8, 17, 24, 31],
-  [9, 16, 23, 30],
-  [7, 15, 22, 29],
-];
-
-const DOT_SIZE = 6;
-const DOT_GAP = 6;
-const COLS = 7;
-
-/** GitHub-style dot grid, one 7-wide cluster per month, hot orange dots glowing. */
+/** Three local calendar months from the same completed-day selector as the calendar. */
 export function TrainingHeatmap() {
-  return (
-    <View className="flex-row justify-between">
-      {MONTH_NAMES.map((name, monthIndex) => (
-        <View key={name} style={{ width: COLS * DOT_SIZE + (COLS - 1) * DOT_GAP }}>
-          <Text
-            style={{
-              textAlign: 'center',
-              fontFamily: BerkkFonts.medium,
-              color: Berkk.inkSecondary,
-              fontSize: 14,
-            }}>
-            {name}
-          </Text>
-          <View style={{ flexDirection: 'row', flexWrap: 'wrap', marginTop: 14, gap: DOT_GAP }}>
-            {PATTERN[monthIndex].map((on, i) => {
-              const hot = on === 1 && STRONG[monthIndex].includes(i);
-              return (
-                <View
-                  key={i}
-                  style={{
-                    width: DOT_SIZE,
-                    height: DOT_SIZE,
-                    borderRadius: DOT_SIZE / 2,
-                    backgroundColor: on ? (hot ? Berkk.dotHot : Berkk.dotOn) : Berkk.dotOff,
-                    shadowColor: hot ? Berkk.dotHot : undefined,
-                    shadowOpacity: hot ? 0.6 : 0,
-                    shadowRadius: hot ? 4 : 0,
-                    shadowOffset: { width: 0, height: 0 },
-                  }}
-                />
-              );
-            })}
-          </View>
+  const history = useStore(workoutStore, (state) => state.history);
+  const today = useLocalDay();
+  const completed = useMemo(() => completedDays(history), [history]);
+  return <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+    {[-2, -1, 0].map((offset) => {
+      const month = shiftMonth(today, offset);
+      const days = monthDays(month);
+      const count = days.filter((day) => day && completed.has(day)).length;
+      return <View key={month} accessible accessibilityLabel={`${formatDay(month, { month: 'long', year: 'numeric' })}: ${count} Trainingstage`} style={{ width: 78 }}>
+        <Text style={{ textAlign: 'center', fontFamily: BerkkFonts.medium, color: Berkk.inkSecondary, fontSize: 14 }}>{formatDay(month, { month: 'short' })}</Text>
+        <View style={{ flexDirection: 'row', flexWrap: 'wrap', marginTop: 14, gap: 6 }}>
+          {days.map((day, index) => <View key={day ?? index} style={{ width: 6, height: 6, borderRadius: 3, backgroundColor: !day ? 'transparent' : completed.has(day) ? Berkk.dotHot : Berkk.dotOff }} />)}
         </View>
-      ))}
-    </View>
-  );
+      </View>;
+    })}
+  </View>;
 }

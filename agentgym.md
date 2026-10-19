@@ -38,11 +38,11 @@ This is primarily a learning project: teach a JavaScript beginner how to build a
 
 ---
 
-## Design Direction (LOCKED IN as of Sept 2026 — supersedes any earlier cream/mascot version)
+## Design Direction (LOCKED IN as of Sept 2026, mascot updated Oct 2026 — supersedes the earlier cream/cat-mascot version)
 
 - Dark background with a warm diagonal gradient: dark orange-red (top-left) → anthracite/deep purple (bottom-right)
 - Cards use the same gradient family but more saturated than the background, large corner radius (~24–28px)
-- **No mascot** in this direction. An earlier direction used a cat mascot ("Mochi") on a cream/off-white palette — that is superseded, do not build against it or reintroduce it without the user explicitly asking
+- Der BERKK-Geist ist das Maskottchen (siehe BERKK_GEIST.md). Die Katze 'Mochi' bleibt verworfen.
 - Bold, large numeric stats (Körpergewicht, Schritte, Volumen) as the visual focal point of every card
 - "Workout starten": full-width, high-contrast gradient CTA button — the clear primary action
 - Typography base: **Space Grotesk** — but it has no true Black (900) weight, only up to Bold (700). For hero numbers and the CTA label, use a second typeface with a genuine Black cut (e.g. **Archivo Black** or **Cabinet Grotesk Extrabold**) so there's real weight-contrast — do not fake weight with `font-weight: 900` on a font that doesn't have that cut.
@@ -64,7 +64,7 @@ This is primarily a learning project: teach a JavaScript beginner how to build a
 4. "Schritte" card — today's step count, daily goal
 5. "Workout starten" CTA — full width, primary action
 
-Do NOT add a mascot/hero character to this screen under the current design direction.
+Kein großer Geist auf der Startseite. Im Training, im Onboarding und im Shop ist er erlaubt.
 
 ---
 
@@ -87,13 +87,18 @@ Do NOT add a mascot/hero character to this screen under the current design direc
 
 ## The "Adrenaline Moment" Principle
 
-The app is calm and restrained everywhere else. The ONE moment that gets an energetic, snappy micro-interaction (quick scale-bounce, brief accent-color pulse, count-up animation) is when the user sets a new PR that increases their Lifetime Score. Do not spread energetic animation across the rest of the app — the contrast is the point.
+The app is calm and restrained everywhere else. The ONE moment that gets an energetic, snappy micro-interaction (quick scale-bounce, brief accent-color pulse, count-up animation) is when the user sets a new PR that increases their Lifetime Score. Do not spread energetic animation across the rest of the app — the contrast is the point. Kleinere positive Reaktionen (stärker als zuletzt) sind erlaubt, bleiben aber deutlich ruhiger als der PR.
 
 ---
 
 ## Current Build Status
 
-Not tracked in this file. Before implementing anything, inspect the actual repo (folder structure, installed dependencies, existing components) rather than assuming what already exists from this document. Update this section yourself once real status is known, so it stays accurate for the next session.
+Before implementing anything, inspect the actual repo (folder structure, installed dependencies, existing components) rather than assuming what already exists from this document. Update this section yourself once real status is known, so it stays accurate for the next session.
+
+Known status (Sept 2026):
+- Zustand is NOT installed yet; there is no `store/` folder. State is local to components for now.
+- Home: "Workout starten" morphs into a running timer bubble (`components/berkk/workout-timer-overlay.tsx`, `hooks/use-workout-timer.ts`). Timer state is local to the Home screen by user decision; move it into a Zustand session store once sets get logged into a workout.
+- NativeWind `className` does NOT work on Reanimated `Animated.View` (no cssInterop registered) — use inline styles there.
 
 ---
 
@@ -198,5 +203,4 @@ Before every feature:
 - Read this file, follow it strictly
 - Find a real-app reference before designing anything from scratch, then add BERKK's twist
 - Use the locked dark-gradient design direction and the 3-tier typography weight discipline — never let everything sit at the same weight
-- No mascot on this design direction
 - Keep the calm-by-default / energetic-only-on-PR principle in mind

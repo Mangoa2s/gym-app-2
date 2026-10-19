@@ -27,6 +27,9 @@ export function BottomTabBar({ state, navigation }: BottomTabBarProps) {
           return (
             <Pressable
               key={route.key}
+              accessibilityRole="tab"
+              accessibilityLabel={({ index: 'Übersicht', plan: 'Kalender', progress: 'Verlauf', coach: 'Notizen' } as Record<string, string>)[route.name] ?? route.name}
+              accessibilityState={{ selected: focused }}
               onPress={() => {
                 const event = navigation.emit({ type: 'tabPress', target: route.key, canPreventDefault: true });
                 if (!focused && !event.defaultPrevented) {

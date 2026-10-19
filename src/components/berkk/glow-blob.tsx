@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useId } from 'react';
 import { View, type ViewStyle } from 'react-native';
 import Animated, {
   Easing,
@@ -18,8 +18,10 @@ type GlowBlobProps = {
   style: ViewStyle;
 };
 
-function GlowBlobSvg({ color, size, opacity = 0.4 }: Omit<GlowBlobProps, 'style'>) {
-  const gradientId = `glow-${color.replace('#', '')}`;
+export function GlowBlobSvg({ color, size, opacity = 0.4 }: Omit<GlowBlobProps, 'style'>) {
+  const id = useId();
+  // Multiple orange glows coexist during the transparent route transition.
+  const gradientId = `glow-${id.replace(/[^a-zA-Z0-9_-]/g, '')}`;
 
   return (
     <Svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>

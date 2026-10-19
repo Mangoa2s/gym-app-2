@@ -1,0 +1,947 @@
+{
+  "provenance": "Original BERKK illustrations generated with the built-in image_gen tool from original textual pose briefs. No Hevy images, photographs, or third-party illustration assets were used.",
+  "coverage": {
+    "catalog": 117,
+    "reviewed": 117,
+    "missing": 0
+  },
+  "exercises": [
+    {
+      "id": "barbell-bench",
+      "name": "Langhantel-Bankdrücken",
+      "description": "Flat horizontal bench, person lying supine, barbell just above chest, bent elbows, feet planted.",
+      "asset": "assets/images/exercises/barbell-bench.png",
+      "status": "reviewed",
+      "prompt": "Create one original BERKK exercise-library illustration, a square transparent-background isolated asset. Subject: one faceless adult athletic person doing a BARBELL FLAT BENCH PRESS, at the bottom position: lying supine horizontally on a flat padded bench, feet planted on the ground, barbell held with two hands just above mid chest, elbows bent, both weight plates visible, bench absolutely horizontal. Profile view with a slight three-quarter angle so equipment and both arms are readable. Art direction: reduced sculptural silhouette, clean mature editorial vector-like filled forms, anatomically plausible proportions, no thin stick figure, no contour-only drawing, no realism/photos, no muscle anatomy diagram. Charcoal warm-gray body (#82746C and #4C4140) with subtle broad matte planes, dark charcoal bench and barbell (#44383A), one restrained burnt-orange accent (#F15A22) on the shirt shoulder and weight plate rim. The asset must be legible on a near-black #151116 UI tile at 76 pixels. Body noticeably lighter than background, equipment slightly lighter outlines if needed. Entire person and bench visible with generous 10% transparent padding, centered composition, no shadows beyond silhouette, no text, no numbers, no border, no scenery, no logos, no watermark. Not copying any existing fitness app art. One single exercise only, not a collage. Square composition, 1024px preferred.",
+      "editPrompt": "Edit only orange shirt to charcoal, preserving pose and transparency. Small orange seam and plate rim retained."
+    },
+    {
+      "id": "dumbbell-bench",
+      "name": "Kurzhantel-Bankdrücken",
+      "description": "Flat horizontal bench, person supine holding two SEPARATE dumbbells above chest with bent elbows.",
+      "asset": "assets/images/exercises/dumbbell-bench.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Dumbbell bench press. DECISIVE POSITION: Flat horizontal bench, person supine holding two SEPARATE dumbbells above chest with bent elbows."
+    },
+    {
+      "id": "barbell-incline",
+      "name": "Langhantel-Schrägbankdrücken",
+      "description": "Inclined bench at 35 degrees, head higher than hips, barbell above upper chest, bent elbows.",
+      "asset": "assets/images/exercises/barbell-incline.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Incline barbell bench press. DECISIVE POSITION: Inclined bench at 35 degrees, head higher than hips, barbell above upper chest, bent elbows."
+    },
+    {
+      "id": "dumbbell-incline",
+      "name": "Kurzhantel-Schrägbankdrücken",
+      "description": "Inclined bench at 35 degrees, head higher than hips, TWO SEPARATE dumbbells above upper chest, bent elbows.",
+      "asset": "assets/images/exercises/dumbbell-incline.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Incline dumbbell bench press. DECISIVE POSITION: Inclined bench at 35 degrees, head higher than hips, TWO SEPARATE dumbbells above upper chest, bent elbows."
+    },
+    {
+      "id": "barbell-decline",
+      "name": "Langhantel-Negativbankdrücken",
+      "description": "DECLINED bench, head lower than hips, ankles secured at high end, barbell above chest.",
+      "asset": "assets/images/exercises/barbell-decline.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Decline bench press. DECISIVE POSITION: DECLINED bench, head lower than hips, ankles secured at high end, barbell above chest."
+    },
+    {
+      "id": "chest-press",
+      "name": "Brustpresse",
+      "description": "Seated upright in chest-press machine with back supported, both hands pressing forward on two lever handles.",
+      "asset": "assets/images/exercises/chest-press.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Machine chest press. DECISIVE POSITION: Seated upright in chest-press machine with back supported, both hands pressing forward on two lever handles."
+    },
+    {
+      "id": "pec-deck",
+      "name": "Butterfly-Maschine",
+      "description": "Seated upright at butterfly machine, bent arms squeezing its two side pads toward front of chest.",
+      "asset": "assets/images/exercises/pec-deck.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Pec deck fly. DECISIVE POSITION: Seated upright at butterfly machine, bent arms squeezing its two side pads toward front of chest."
+    },
+    {
+      "id": "cable-fly",
+      "name": "Kabelzug-Fliegende",
+      "description": "Standing split stance between two cable towers, slightly bent arms bringing both handles together in front of chest, visible cables.",
+      "asset": "assets/images/exercises/cable-fly.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Cable chest fly. DECISIVE POSITION: Standing split stance between two cable towers, slightly bent arms bringing both handles together in front of chest, visible cables."
+    },
+    {
+      "id": "dumbbell-fly",
+      "name": "Kurzhantel-Fliegende",
+      "description": "Supine on flat bench, almost straight arms opened wide out to sides holding two dumbbells, distinguish fly from press.",
+      "asset": "assets/images/exercises/dumbbell-fly.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Dumbbell fly. DECISIVE POSITION: Supine on flat bench, almost straight arms opened wide out to sides holding two dumbbells, distinguish fly from press."
+    },
+    {
+      "id": "push-up",
+      "name": "Liegestütze",
+      "description": "Straight body, hands on floor under shoulders, elbows bent at bottom of push-up, feet on floor.",
+      "asset": "assets/images/exercises/push-up.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Push-up. DECISIVE POSITION: Straight body, hands on floor under shoulders, elbows bent at bottom of push-up, feet on floor."
+    },
+    {
+      "id": "incline-push-up",
+      "name": "Erhöhte Liegestütze",
+      "description": "Hands on knee-high bench, feet on floor, straight body inclined upward toward hands, elbows bent.",
+      "asset": "assets/images/exercises/incline-push-up.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Incline push-up. DECISIVE POSITION: Hands on knee-high bench, feet on floor, straight body inclined upward toward hands, elbows bent."
+    },
+    {
+      "id": "dip",
+      "name": "Dips",
+      "description": "Person between two parallel bars, feet suspended, elbows bent and torso leaning forward at bottom of dip.",
+      "asset": "assets/images/exercises/dip.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Parallel bar dip. DECISIVE POSITION: Person between two parallel bars, feet suspended, elbows bent and torso leaning forward at bottom of dip."
+    },
+    {
+      "id": "assisted-dip",
+      "name": "Dips mit Unterstützung",
+      "description": "Dip machine, hands on parallel bars, bent elbows, knees on clearly visible assisting pad.",
+      "asset": "assets/images/exercises/assisted-dip.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Assisted dip. DECISIVE POSITION: Dip machine, hands on parallel bars, bent elbows, knees on clearly visible assisting pad."
+    },
+    {
+      "id": "lat-pulldown",
+      "name": "Latzug, breiter Griff",
+      "description": "Seated tall cable machine, knees under pad, WIDE overhand grip on long bar pulled down to upper chest. Overhead cable clearly visible.",
+      "asset": "assets/images/exercises/lat-pulldown.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Wide grip lat pulldown. DECISIVE POSITION: Seated tall cable machine, knees under pad, WIDE overhand grip on long bar pulled down to upper chest. Overhead cable clearly visible."
+    },
+    {
+      "id": "close-lat-pulldown",
+      "name": "Latzug, enger Griff",
+      "description": "Seated tall cable machine, short neutral-grip V handle pulled to upper chest, elbows tucked, overhead cable.",
+      "asset": "assets/images/exercises/close-lat-pulldown.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Close grip lat pulldown. DECISIVE POSITION: Seated tall cable machine, short neutral-grip V handle pulled to upper chest, elbows tucked, overhead cable."
+    },
+    {
+      "id": "barbell-row",
+      "name": "Langhantelrudern",
+      "description": "Standing bent-over torso about 45 degrees, knees slightly bent, barbell pulled toward lower ribs, elbows behind body.",
+      "asset": "assets/images/exercises/barbell-row.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Bent over barbell row. DECISIVE POSITION: Standing bent-over torso about 45 degrees, knees slightly bent, barbell pulled toward lower ribs, elbows behind body."
+    },
+    {
+      "id": "dumbbell-row",
+      "name": "Einarmiges Kurzhantelrudern",
+      "description": "One hand and knee supported on flat bench, horizontal torso, other hand pulls ONE dumbbell toward hip.",
+      "asset": "assets/images/exercises/dumbbell-row.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Single arm dumbbell row. DECISIVE POSITION: One hand and knee supported on flat bench, horizontal torso, other hand pulls ONE dumbbell toward hip."
+    },
+    {
+      "id": "cable-row",
+      "name": "Sitzendes Kabelrudern",
+      "description": "Seated low-cable row, knees slightly bent, feet on footplate, handle near abdomen, cable extends FORWARD horizontally to low pulley.",
+      "asset": "assets/images/exercises/cable-row.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Seated cable row. DECISIVE POSITION: Seated low-cable row, knees slightly bent, feet on footplate, handle near abdomen, cable extends FORWARD horizontally to low pulley."
+    },
+    {
+      "id": "machine-row",
+      "name": "Rudermaschine (Kraft)",
+      "description": "Seated chest-supported STRENGTH row machine, pulling two lever handles toward ribs. Show front chest pad and machine levers; not cardio ergometer.",
+      "asset": "assets/images/exercises/machine-row.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Machine row. DECISIVE POSITION: Seated chest-supported STRENGTH row machine, pulling two lever handles toward ribs. Show front chest pad and machine levers; not cardio ergometer."
+    },
+    {
+      "id": "chest-supported-row",
+      "name": "Brustgestütztes Kurzhantelrudern",
+      "description": "Face DOWN against inclined bench, chest supported, both dumbbells pulled back toward hips. Not supine pressing.",
+      "asset": "assets/images/exercises/chest-supported-row.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Chest supported dumbbell row. DECISIVE POSITION: Face DOWN against inclined bench, chest supported, both dumbbells pulled back toward hips. Not supine pressing."
+    },
+    {
+      "id": "t-bar-row",
+      "name": "T-Bar-Rudern",
+      "description": "Standing astride landmine bar, hip-hinged torso, pulling near loaded end toward chest, far end anchored to ground.",
+      "asset": "assets/images/exercises/t-bar-row.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: T-bar row. DECISIVE POSITION: Standing astride landmine bar, hip-hinged torso, pulling near loaded end toward chest, far end anchored to ground."
+    },
+    {
+      "id": "pull-up",
+      "name": "Klimmzüge, Obergriff",
+      "description": "Hanging from overhead bar, wide OVERHAND grip, elbows bent, chin near bar, knees gently bent.",
+      "asset": "assets/images/exercises/pull-up.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Pull-up. DECISIVE POSITION: Hanging from overhead bar, wide OVERHAND grip, elbows bent, chin near bar, knees gently bent."
+    },
+    {
+      "id": "chin-up",
+      "name": "Klimmzüge, Untergriff",
+      "description": "Hanging from overhead bar, narrow UNDERHAND palms toward body grip, elbows bent, chin near bar.",
+      "asset": "assets/images/exercises/chin-up.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Chin-up. DECISIVE POSITION: Hanging from overhead bar, narrow UNDERHAND palms toward body grip, elbows bent, chin near bar."
+    },
+    {
+      "id": "assisted-pull-up",
+      "name": "Klimmzüge mit Unterstützung",
+      "description": "Assisted pull-up machine, chin near overhead bar, knees on clearly visible assisting platform.",
+      "asset": "assets/images/exercises/assisted-pull-up.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Assisted pull-up. DECISIVE POSITION: Assisted pull-up machine, chin near overhead bar, knees on clearly visible assisting platform."
+    },
+    {
+      "id": "inverted-row",
+      "name": "Umgekehrtes Rudern",
+      "description": "Under low waist-high horizontal bar, heels on floor, straight body reclining diagonally, chest pulled toward bar.",
+      "asset": "assets/images/exercises/inverted-row.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Inverted row. DECISIVE POSITION: Under low waist-high horizontal bar, heels on floor, straight body reclining diagonally, chest pulled toward bar."
+    },
+    {
+      "id": "straight-arm-pulldown",
+      "name": "Kabelzug-Pullover",
+      "description": "Standing facing high cable pulley, slight hip hinge, nearly STRAIGHT arms pulling bar to thighs, overhead cable.",
+      "asset": "assets/images/exercises/straight-arm-pulldown.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Straight arm pulldown. DECISIVE POSITION: Standing facing high cable pulley, slight hip hinge, nearly STRAIGHT arms pulling bar to thighs, overhead cable."
+    },
+    {
+      "id": "back-extension",
+      "name": "Rückenstrecken",
+      "description": "Roman-chair 45-degree back-extension bench, hips on pad, ankles secured, torso aligns with legs, arms crossed.",
+      "asset": "assets/images/exercises/back-extension.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Back extension. DECISIVE POSITION: Roman-chair 45-degree back-extension bench, hips on pad, ankles secured, torso aligns with legs, arms crossed."
+    },
+    {
+      "id": "band-row",
+      "name": "Rudern mit Widerstandsband",
+      "description": "Seated on floor, looped resistance band around feet, both handles pulled toward torso.",
+      "asset": "assets/images/exercises/band-row.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Resistance band row. DECISIVE POSITION: Seated on floor, looped resistance band around feet, both handles pulled toward torso."
+    },
+    {
+      "id": "overhead-press",
+      "name": "Langhantel-Schulterdrücken",
+      "description": "Standing upright, barbell overhead at near full arm extension, legs straight, no bench.",
+      "asset": "assets/images/exercises/overhead-press.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Barbell overhead press. DECISIVE POSITION: Standing upright, barbell overhead at near full arm extension, legs straight, no bench."
+    },
+    {
+      "id": "dumbbell-shoulder-press",
+      "name": "Kurzhantel-Schulterdrücken",
+      "description": "Seated upright on bench with backrest, two dumbbells at shoulder level, bent elbows about 90 degrees.",
+      "asset": "assets/images/exercises/dumbbell-shoulder-press.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Dumbbell shoulder press. DECISIVE POSITION: Seated upright on bench with backrest, two dumbbells at shoulder level, bent elbows about 90 degrees."
+    },
+    {
+      "id": "machine-shoulder-press",
+      "name": "Schulterpresse",
+      "description": "Seated shoulder press machine, hands pushing machine levers upward, supported back, no loose dumbbells.",
+      "asset": "assets/images/exercises/machine-shoulder-press.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Machine shoulder press. DECISIVE POSITION: Seated shoulder press machine, hands pushing machine levers upward, supported back, no loose dumbbells."
+    },
+    {
+      "id": "arnold-press",
+      "name": "Arnold-Press",
+      "description": "Seated upright, two dumbbells held in front of face, palms facing person at lower rotating Arnold-press position.",
+      "asset": "assets/images/exercises/arnold-press.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Arnold press. DECISIVE POSITION: Seated upright, two dumbbells held in front of face, palms facing person at lower rotating Arnold-press position."
+    },
+    {
+      "id": "lateral-raise",
+      "name": "Kurzhantel-Seitheben",
+      "description": "Standing upright, two dumbbells raised OUT TO SIDES at shoulder height, slightly bent elbows.",
+      "asset": "assets/images/exercises/lateral-raise.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Dumbbell lateral raise. DECISIVE POSITION: Standing upright, two dumbbells raised OUT TO SIDES at shoulder height, slightly bent elbows."
+    },
+    {
+      "id": "cable-lateral-raise",
+      "name": "Kabelzug-Seitheben",
+      "description": "Standing next to one low cable tower, one straight arm raised sideways to shoulder height, cable crosses lower body.",
+      "asset": "assets/images/exercises/cable-lateral-raise.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Cable lateral raise. DECISIVE POSITION: Standing next to one low cable tower, one straight arm raised sideways to shoulder height, cable crosses lower body."
+    },
+    {
+      "id": "front-raise",
+      "name": "Kurzhantel-Frontheben",
+      "description": "Side view of standing person, one dumbbell raised FORWARD to shoulder height with almost straight arm.",
+      "asset": "assets/images/exercises/front-raise.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Dumbbell front raise. DECISIVE POSITION: Side view of standing person, one dumbbell raised FORWARD to shoulder height with almost straight arm."
+    },
+    {
+      "id": "reverse-fly",
+      "name": "Kurzhantel-Reverse-Flys",
+      "description": "Hip-hinged standing person, torso near horizontal, two dumbbells raised laterally to sides in reverse fly.",
+      "asset": "assets/images/exercises/reverse-fly.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Dumbbell reverse fly. DECISIVE POSITION: Hip-hinged standing person, torso near horizontal, two dumbbells raised laterally to sides in reverse fly."
+    },
+    {
+      "id": "reverse-pec-deck",
+      "name": "Butterfly Reverse",
+      "description": "Seated facing machine chest pad, both arms open backward gripping reverse butterfly levers.",
+      "asset": "assets/images/exercises/reverse-pec-deck.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Reverse pec deck. DECISIVE POSITION: Seated facing machine chest pad, both arms open backward gripping reverse butterfly levers."
+    },
+    {
+      "id": "face-pull",
+      "name": "Face Pulls",
+      "description": "Standing facing cable tower at face height, rope pulled toward eyes, elbows high and wide.",
+      "asset": "assets/images/exercises/face-pull.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Cable face pull. DECISIVE POSITION: Standing facing cable tower at face height, rope pulled toward eyes, elbows high and wide."
+    },
+    {
+      "id": "band-pull-apart",
+      "name": "Band auseinanderziehen",
+      "description": "Standing upright, two straight arms out at shoulder height stretching a resistance band horizontally apart.",
+      "asset": "assets/images/exercises/band-pull-apart.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Band pull apart. DECISIVE POSITION: Standing upright, two straight arms out at shoulder height stretching a resistance band horizontally apart."
+    },
+    {
+      "id": "shrug",
+      "name": "Kurzhantel-Shrugs",
+      "description": "Standing upright with two dumbbells down at sides, shoulders elevated toward ears, arms straight.",
+      "asset": "assets/images/exercises/shrug.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Dumbbell shrug. DECISIVE POSITION: Standing upright with two dumbbells down at sides, shoulders elevated toward ears, arms straight."
+    },
+    {
+      "id": "barbell-curl",
+      "name": "Langhantel-Bizepscurls",
+      "description": "Standing upright, straight barbell lifted with bent elbows to chest height, palms up.",
+      "asset": "assets/images/exercises/barbell-curl.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Barbell biceps curl. DECISIVE POSITION: Standing upright, straight barbell lifted with bent elbows to chest height, palms up."
+    },
+    {
+      "id": "ez-curl",
+      "name": "SZ-Curls",
+      "description": "Standing curl with visibly ANGLED ZIGZAG EZ bar, elbows bent, bar near chest. Not straight bar.",
+      "asset": "assets/images/exercises/ez-curl.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: EZ bar curl. DECISIVE POSITION: Standing curl with visibly ANGLED ZIGZAG EZ bar, elbows bent, bar near chest. Not straight bar."
+    },
+    {
+      "id": "dumbbell-curl",
+      "name": "Kurzhantel-Bizepscurls",
+      "description": "Standing upright, two separate dumbbells curled toward shoulders, palms up.",
+      "asset": "assets/images/exercises/dumbbell-curl.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Dumbbell biceps curl. DECISIVE POSITION: Standing upright, two separate dumbbells curled toward shoulders, palms up."
+    },
+    {
+      "id": "hammer-curl",
+      "name": "Hammercurls",
+      "description": "Standing, two dumbbells curled with vertical NEUTRAL hammer grip, palms facing inward.",
+      "asset": "assets/images/exercises/hammer-curl.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Hammer curl. DECISIVE POSITION: Standing, two dumbbells curled with vertical NEUTRAL hammer grip, palms facing inward."
+    },
+    {
+      "id": "incline-curl",
+      "name": "Schrägbank-Curls",
+      "description": "Sitting leaning back on 45-degree incline bench, dumbbells at sides in curl, head higher than hips.",
+      "asset": "assets/images/exercises/incline-curl.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Incline dumbbell curl. DECISIVE POSITION: Sitting leaning back on 45-degree incline bench, dumbbells at sides in curl, head higher than hips."
+    },
+    {
+      "id": "preacher-curl",
+      "name": "Scott-Curls",
+      "description": "Seated behind angled preacher/scott arm pad, upper arms RESTING on pad, EZ bar curled toward shoulders.",
+      "asset": "assets/images/exercises/preacher-curl.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Preacher curl. DECISIVE POSITION: Seated behind angled preacher/scott arm pad, upper arms RESTING on pad, EZ bar curled toward shoulders."
+    },
+    {
+      "id": "cable-curl",
+      "name": "Kabelzug-Bizepscurls",
+      "description": "Standing facing low cable pulley, short straight handle curled toward chest, visible cable from low pulley.",
+      "asset": "assets/images/exercises/cable-curl.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Cable biceps curl. DECISIVE POSITION: Standing facing low cable pulley, short straight handle curled toward chest, visible cable from low pulley."
+    },
+    {
+      "id": "concentration-curl",
+      "name": "Konzentrationscurls",
+      "description": "Seated on low bench, legs apart, elbow on inner thigh, ONE dumbbell curled toward chest.",
+      "asset": "assets/images/exercises/concentration-curl.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Concentration curl. DECISIVE POSITION: Seated on low bench, legs apart, elbow on inner thigh, ONE dumbbell curled toward chest."
+    },
+    {
+      "id": "triceps-pushdown",
+      "name": "Trizepsdrücken am Kabel",
+      "description": "Standing at high cable tower, upper arms held at sides, forearms pressing rope DOWN toward thighs, nearly extended elbows.",
+      "asset": "assets/images/exercises/triceps-pushdown.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Triceps cable pushdown. DECISIVE POSITION: Standing at high cable tower, upper arms held at sides, forearms pressing rope DOWN toward thighs, nearly extended elbows."
+    },
+    {
+      "id": "overhead-triceps",
+      "name": "Überkopf-Trizepsstrecken am Kabel",
+      "description": "Standing facing away from high cable pulley, upper arms pointing overhead, elbows bent with cable handle behind head.",
+      "asset": "assets/images/exercises/overhead-triceps.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Overhead cable triceps extension. DECISIVE POSITION: Standing facing away from high cable pulley, upper arms pointing overhead, elbows bent with cable handle behind head."
+    },
+    {
+      "id": "dumbbell-triceps",
+      "name": "Kurzhantel-Trizepsstrecken",
+      "description": "Seated upright, holding ONE dumbbell with both hands behind head, upper arms vertical, elbows bent.",
+      "asset": "assets/images/exercises/dumbbell-triceps.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Dumbbell triceps extension. DECISIVE POSITION: Seated upright, holding ONE dumbbell with both hands behind head, upper arms vertical, elbows bent."
+    },
+    {
+      "id": "skull-crusher",
+      "name": "Liegendes SZ-Trizepsstrecken",
+      "description": "Supine flat bench, upper arms point vertically upward, EZ bar lowered toward forehead with elbows bent. Not bench press.",
+      "asset": "assets/images/exercises/skull-crusher.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Skull crusher. DECISIVE POSITION: Supine flat bench, upper arms point vertically upward, EZ bar lowered toward forehead with elbows bent. Not bench press."
+    },
+    {
+      "id": "close-bench",
+      "name": "Enges Langhantel-Bankdrücken",
+      "description": "Supine flat bench, narrow grip on barbell above chest, bent elbows tucked close to ribs.",
+      "asset": "assets/images/exercises/close-bench.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Close grip bench press. DECISIVE POSITION: Supine flat bench, narrow grip on barbell above chest, bent elbows tucked close to ribs."
+    },
+    {
+      "id": "triceps-kickback",
+      "name": "Trizeps-Kickbacks",
+      "description": "Standing hip hinge, ONE upper arm aligned with torso, forearm extended BACKWARD holding dumbbell.",
+      "asset": "assets/images/exercises/triceps-kickback.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Dumbbell triceps kickback. DECISIVE POSITION: Standing hip hinge, ONE upper arm aligned with torso, forearm extended BACKWARD holding dumbbell."
+    },
+    {
+      "id": "diamond-push-up",
+      "name": "Diamant-Liegestütze",
+      "description": "Push-up with both hands touching together in a small DIAMOND beneath chest, bent elbows, straight body.",
+      "asset": "assets/images/exercises/diamond-push-up.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Diamond push-up. DECISIVE POSITION: Push-up with both hands touching together in a small DIAMOND beneath chest, bent elbows, straight body."
+    },
+    {
+      "id": "wrist-curl",
+      "name": "Handgelenkcurls",
+      "description": "Seated on bench, forearms supported on thighs, PALMS UP, dumbbells curled upward using wrists only.",
+      "asset": "assets/images/exercises/wrist-curl.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Wrist curl. DECISIVE POSITION: Seated on bench, forearms supported on thighs, PALMS UP, dumbbells curled upward using wrists only."
+    },
+    {
+      "id": "reverse-wrist-curl",
+      "name": "Umgekehrte Handgelenkcurls",
+      "description": "Seated, forearms supported on thighs, PALMS DOWN, dumbbells lifted using wrists only.",
+      "asset": "assets/images/exercises/reverse-wrist-curl.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Reverse wrist curl. DECISIVE POSITION: Seated, forearms supported on thighs, PALMS DOWN, dumbbells lifted using wrists only."
+    },
+    {
+      "id": "reverse-curl",
+      "name": "Reverse Curls",
+      "description": "Standing curl with straight barbell and OVERHAND palms-down grip, elbows bent.",
+      "asset": "assets/images/exercises/reverse-curl.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Reverse barbell curl. DECISIVE POSITION: Standing curl with straight barbell and OVERHAND palms-down grip, elbows bent."
+    },
+    {
+      "id": "dead-hang",
+      "name": "Hängen an der Stange",
+      "description": "Hanging vertically from overhead bar, arms completely straight, feet suspended, no pull-up bend.",
+      "asset": "assets/images/exercises/dead-hang.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Dead hang. DECISIVE POSITION: Hanging vertically from overhead bar, arms completely straight, feet suspended, no pull-up bend."
+    },
+    {
+      "id": "farmer-hold",
+      "name": "Farmer Hold",
+      "description": "Standing upright holding one heavy dumbbell in each STRAIGHT arm down at sides, neutral shoulders, stationary.",
+      "asset": "assets/images/exercises/farmer-hold.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Farmer hold. DECISIVE POSITION: Standing upright holding one heavy dumbbell in each STRAIGHT arm down at sides, neutral shoulders, stationary."
+    },
+    {
+      "id": "back-squat",
+      "name": "Langhantel-Kniebeugen",
+      "description": "Side three-quarter view, BARBELL ON UPPER BACK, deep squat with bent knees and hips, torso slightly inclined.",
+      "asset": "assets/images/exercises/back-squat.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Barbell back squat. DECISIVE POSITION: Side three-quarter view, BARBELL ON UPPER BACK, deep squat with bent knees and hips, torso slightly inclined."
+    },
+    {
+      "id": "front-squat",
+      "name": "Frontkniebeugen",
+      "description": "Squat, BARBELL ACROSS FRONT SHOULDERS, elbows raised forward, torso upright at bottom.",
+      "asset": "assets/images/exercises/front-squat.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Front squat. DECISIVE POSITION: Squat, BARBELL ACROSS FRONT SHOULDERS, elbows raised forward, torso upright at bottom."
+    },
+    {
+      "id": "goblet-squat",
+      "name": "Goblet Squats",
+      "description": "Deep squat holding ONE kettlebell with both hands in front of chest, no barbell.",
+      "asset": "assets/images/exercises/goblet-squat.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Goblet squat. DECISIVE POSITION: Deep squat holding ONE kettlebell with both hands in front of chest, no barbell."
+    },
+    {
+      "id": "bodyweight-squat",
+      "name": "Kniebeugen ohne Gewicht",
+      "description": "Deep squat without weights, hands extended forward at chest height.",
+      "asset": "assets/images/exercises/bodyweight-squat.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Bodyweight squat. DECISIVE POSITION: Deep squat without weights, hands extended forward at chest height."
+    },
+    {
+      "id": "leg-press",
+      "name": "Beinpresse",
+      "description": "Person reclined in 45-degree leg-press sled machine, feet on raised angled footplate, knees bent toward chest.",
+      "asset": "assets/images/exercises/leg-press.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Leg press. DECISIVE POSITION: Person reclined in 45-degree leg-press sled machine, feet on raised angled footplate, knees bent toward chest."
+    },
+    {
+      "id": "hack-squat",
+      "name": "Hackenschmidt-Kniebeugen",
+      "description": "Person standing inclined on hack squat machine, BACK against angled pad, shoulders under pads, knees bent.",
+      "asset": "assets/images/exercises/hack-squat.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Hack squat. DECISIVE POSITION: Person standing inclined on hack squat machine, BACK against angled pad, shoulders under pads, knees bent."
+    },
+    {
+      "id": "leg-extension",
+      "name": "Beinstrecker",
+      "description": "Seated upright leg-extension machine, legs extending forward from knees against lower-shin roller.",
+      "asset": "assets/images/exercises/leg-extension.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Leg extension. DECISIVE POSITION: Seated upright leg-extension machine, legs extending forward from knees against lower-shin roller."
+    },
+    {
+      "id": "bulgarian-squat",
+      "name": "Bulgarische Kurzhantel-Split-Squats",
+      "description": "Split squat with REAR FOOT ELEVATED on bench, front knee bent deeply, two dumbbells at sides.",
+      "asset": "assets/images/exercises/bulgarian-squat.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Bulgarian split squat. DECISIVE POSITION: Split squat with REAR FOOT ELEVATED on bench, front knee bent deeply, two dumbbells at sides."
+    },
+    {
+      "id": "dumbbell-lunge",
+      "name": "Kurzhantel-Ausfallschritte",
+      "description": "Forward lunge with rear knee near floor, two dumbbells held at sides, rear foot on ground.",
+      "asset": "assets/images/exercises/dumbbell-lunge.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Dumbbell lunge. DECISIVE POSITION: Forward lunge with rear knee near floor, two dumbbells held at sides, rear foot on ground."
+    },
+    {
+      "id": "bodyweight-lunge",
+      "name": "Ausfallschritte ohne Gewicht",
+      "description": "Forward lunge without weights, rear knee near floor, upright torso.",
+      "asset": "assets/images/exercises/bodyweight-lunge.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Bodyweight lunge. DECISIVE POSITION: Forward lunge without weights, rear knee near floor, upright torso."
+    },
+    {
+      "id": "step-up",
+      "name": "Kurzhantel-Step-ups",
+      "description": "One foot atop a knee-high box, other foot lifting from ground, two dumbbells at sides.",
+      "asset": "assets/images/exercises/step-up.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Dumbbell step-up. DECISIVE POSITION: One foot atop a knee-high box, other foot lifting from ground, two dumbbells at sides."
+    },
+    {
+      "id": "wall-sit",
+      "name": "Wandsitzen",
+      "description": "Back flat against wall, hips and knees at right angles, seated hold without chair.",
+      "asset": "assets/images/exercises/wall-sit.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Wall sit. DECISIVE POSITION: Back flat against wall, hips and knees at right angles, seated hold without chair."
+    },
+    {
+      "id": "deadlift",
+      "name": "Klassisches Kreuzheben",
+      "description": "Conventional deadlift with straight barbell just below knees, hands outside legs, moderate bent knees, torso hip-hinged.",
+      "asset": "assets/images/exercises/deadlift.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Conventional deadlift. DECISIVE POSITION: Conventional deadlift with straight barbell just below knees, hands outside legs, moderate bent knees, torso hip-hinged."
+    },
+    {
+      "id": "romanian-deadlift",
+      "name": "Rumänisches Kreuzheben",
+      "description": "Romanian hinge with barbell near mid-shins, knees only SLIGHTLY bent, hips far back, almost straight legs.",
+      "asset": "assets/images/exercises/romanian-deadlift.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Romanian deadlift. DECISIVE POSITION: Romanian hinge with barbell near mid-shins, knees only SLIGHTLY bent, hips far back, almost straight legs."
+    },
+    {
+      "id": "dumbbell-rdl",
+      "name": "Rumänisches Kurzhantel-Kreuzheben",
+      "description": "Romanian hip hinge with TWO SEPARATE dumbbells beside shins, slightly bent knees.",
+      "asset": "assets/images/exercises/dumbbell-rdl.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Dumbbell Romanian deadlift. DECISIVE POSITION: Romanian hip hinge with TWO SEPARATE dumbbells beside shins, slightly bent knees."
+    },
+    {
+      "id": "sumo-deadlift",
+      "name": "Sumo-Kreuzheben",
+      "description": "Very WIDE stance, toes angled outward, hands INSIDE legs holding straight barbell near shins.",
+      "asset": "assets/images/exercises/sumo-deadlift.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Sumo deadlift. DECISIVE POSITION: Very WIDE stance, toes angled outward, hands INSIDE legs holding straight barbell near shins."
+    },
+    {
+      "id": "lying-leg-curl",
+      "name": "Beinbeuger, liegend",
+      "description": "Lying FACE DOWN on prone leg-curl machine, knees bent lifting lower-shin roller toward buttocks.",
+      "asset": "assets/images/exercises/lying-leg-curl.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Lying leg curl. DECISIVE POSITION: Lying FACE DOWN on prone leg-curl machine, knees bent lifting lower-shin roller toward buttocks."
+    },
+    {
+      "id": "seated-leg-curl",
+      "name": "Beinbeuger, sitzend",
+      "description": "Seated leg-curl machine, back upright against backrest, knees flexed pulling ankle roller UNDER seat.",
+      "asset": "assets/images/exercises/seated-leg-curl.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Seated leg curl. DECISIVE POSITION: Seated leg-curl machine, back upright against backrest, knees flexed pulling ankle roller UNDER seat."
+    },
+    {
+      "id": "good-morning",
+      "name": "Good Mornings",
+      "description": "Standing hip hinge, straight barbell ON UPPER BACK, torso near horizontal, slightly bent knees.",
+      "asset": "assets/images/exercises/good-morning.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Good morning. DECISIVE POSITION: Standing hip hinge, straight barbell ON UPPER BACK, torso near horizontal, slightly bent knees."
+    },
+    {
+      "id": "nordic-curl",
+      "name": "Nordic Curls",
+      "description": "Kneeling on pad with ankles secured under low support, straight torso leaning FORWARD at angle, no weights.",
+      "asset": "assets/images/exercises/nordic-curl.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Nordic hamstring curl. DECISIVE POSITION: Kneeling on pad with ankles secured under low support, straight torso leaning FORWARD at angle, no weights."
+    },
+    {
+      "id": "hip-thrust",
+      "name": "Langhantel-Hip-Thrusts",
+      "description": "Upper back on low bench, feet planted, hips raised, barbell rests across hip crease, knees bent.",
+      "asset": "assets/images/exercises/hip-thrust.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Barbell hip thrust. DECISIVE POSITION: Upper back on low bench, feet planted, hips raised, barbell rests across hip crease, knees bent."
+    },
+    {
+      "id": "machine-hip-thrust",
+      "name": "Hip-Thrust-Maschine",
+      "description": "Person using hip-thrust machine with back pad and padded LEVER BELT across hips, hips raised.",
+      "asset": "assets/images/exercises/machine-hip-thrust.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Machine hip thrust. DECISIVE POSITION: Person using hip-thrust machine with back pad and padded LEVER BELT across hips, hips raised."
+    },
+    {
+      "id": "glute-bridge",
+      "name": "Beckenheben",
+      "description": "Lying on floor, knees bent and feet planted, hips lifted into straight shoulder-to-knee line, no weights.",
+      "asset": "assets/images/exercises/glute-bridge.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Glute bridge. DECISIVE POSITION: Lying on floor, knees bent and feet planted, hips lifted into straight shoulder-to-knee line, no weights."
+    },
+    {
+      "id": "cable-kickback",
+      "name": "Kabelzug-Glute-Kickbacks",
+      "description": "Standing facing low cable tower, ankle cuff on ONE leg extending BACKWARD, slight torso lean.",
+      "asset": "assets/images/exercises/cable-kickback.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Cable glute kickback. DECISIVE POSITION: Standing facing low cable tower, ankle cuff on ONE leg extending BACKWARD, slight torso lean."
+    },
+    {
+      "id": "abduction",
+      "name": "Abduktorenmaschine",
+      "description": "Seated front three-quarter view of abductor machine, padded legs OPEN WIDE outward, hip abduction.",
+      "asset": "assets/images/exercises/abduction.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Hip abduction machine. DECISIVE POSITION: Seated front three-quarter view of abductor machine, padded legs OPEN WIDE outward, hip abduction."
+    },
+    {
+      "id": "adduction",
+      "name": "Adduktorenmaschine",
+      "description": "Seated front three-quarter view of adductor machine, legs squeezing inward on INNER THIGH pads, hip adduction.",
+      "asset": "assets/images/exercises/adduction.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Hip adduction machine. DECISIVE POSITION: Seated front three-quarter view of adductor machine, legs squeezing inward on INNER THIGH pads, hip adduction."
+    },
+    {
+      "id": "band-lateral-walk",
+      "name": "Seitliche Schritte mit Band",
+      "description": "Half squat with loop band around thighs, one foot stepping sideways, knees kept apart.",
+      "asset": "assets/images/exercises/band-lateral-walk.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Lateral band walk. DECISIVE POSITION: Half squat with loop band around thighs, one foot stepping sideways, knees kept apart."
+    },
+    {
+      "id": "standing-calf",
+      "name": "Wadenheben, stehend an der Maschine",
+      "description": "Standing calf-raise machine, shoulders under pads, heels RAISED on elevated foot block.",
+      "asset": "assets/images/exercises/standing-calf.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Standing machine calf raise. DECISIVE POSITION: Standing calf-raise machine, shoulders under pads, heels RAISED on elevated foot block."
+    },
+    {
+      "id": "seated-calf",
+      "name": "Wadenheben, sitzend",
+      "description": "Seated calf machine, padded lever across thighs, knees bent 90 degrees, heels raised on foot block.",
+      "asset": "assets/images/exercises/seated-calf.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Seated calf raise. DECISIVE POSITION: Seated calf machine, padded lever across thighs, knees bent 90 degrees, heels raised on foot block."
+    },
+    {
+      "id": "bodyweight-calf",
+      "name": "Wadenheben ohne Gewicht",
+      "description": "Standing without weights, heels raised, one hand lightly touching vertical support.",
+      "asset": "assets/images/exercises/bodyweight-calf.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Bodyweight calf raise. DECISIVE POSITION: Standing without weights, heels raised, one hand lightly touching vertical support."
+    },
+    {
+      "id": "dumbbell-calf",
+      "name": "Kurzhantel-Wadenheben",
+      "description": "Standing on small step with heels raised, TWO dumbbells held at sides, no machine.",
+      "asset": "assets/images/exercises/dumbbell-calf.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Dumbbell calf raise. DECISIVE POSITION: Standing on small step with heels raised, TWO dumbbells held at sides, no machine."
+    },
+    {
+      "id": "crunch",
+      "name": "Crunches",
+      "description": "Supine on mat with knees bent, shoulders slightly lifted, hands across chest, lower back on floor.",
+      "asset": "assets/images/exercises/crunch.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Crunch. DECISIVE POSITION: Supine on mat with knees bent, shoulders slightly lifted, hands across chest, lower back on floor."
+    },
+    {
+      "id": "sit-up",
+      "name": "Sit-ups",
+      "description": "On mat, knees bent, torso raised nearly upright toward thighs in sit-up.",
+      "asset": "assets/images/exercises/sit-up.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Sit-up. DECISIVE POSITION: On mat, knees bent, torso raised nearly upright toward thighs in sit-up."
+    },
+    {
+      "id": "cable-crunch",
+      "name": "Kabel-Crunches",
+      "description": "Kneeling facing high cable pulley, rope behind head, torso curled down toward knees.",
+      "asset": "assets/images/exercises/cable-crunch.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Cable crunch. DECISIVE POSITION: Kneeling facing high cable pulley, rope behind head, torso curled down toward knees."
+    },
+    {
+      "id": "hanging-leg-raise",
+      "name": "Hängendes Beinheben",
+      "description": "Hanging from overhead bar with straight arms, both straight legs raised forward to hip height.",
+      "asset": "assets/images/exercises/hanging-leg-raise.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Hanging leg raise. DECISIVE POSITION: Hanging from overhead bar with straight arms, both straight legs raised forward to hip height."
+    },
+    {
+      "id": "reverse-crunch",
+      "name": "Reverse Crunches",
+      "description": "Supine mat, shoulders grounded, knees bent toward chest, pelvis curled up from floor.",
+      "asset": "assets/images/exercises/reverse-crunch.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Reverse crunch. DECISIVE POSITION: Supine mat, shoulders grounded, knees bent toward chest, pelvis curled up from floor."
+    },
+    {
+      "id": "ab-wheel",
+      "name": "Bauchroller",
+      "description": "Kneeling on floor, BOTH hands holding small ab wheel extended far forward, body in long diagonal line.",
+      "asset": "assets/images/exercises/ab-wheel.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Ab wheel rollout. DECISIVE POSITION: Kneeling on floor, BOTH hands holding small ab wheel extended far forward, body in long diagonal line."
+    },
+    {
+      "id": "plank",
+      "name": "Unterarmstütz",
+      "description": "Forearms on floor under shoulders, elbows bent 90 degrees, straight horizontal body, toes grounded.",
+      "asset": "assets/images/exercises/plank.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Plank. DECISIVE POSITION: Forearms on floor under shoulders, elbows bent 90 degrees, straight horizontal body, toes grounded."
+    },
+    {
+      "id": "side-plank",
+      "name": "Seitstütz",
+      "description": "Side-on body supported on ONE forearm and stacked feet, hips elevated, other arm on hip.",
+      "asset": "assets/images/exercises/side-plank.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Side plank. DECISIVE POSITION: Side-on body supported on ONE forearm and stacked feet, hips elevated, other arm on hip."
+    },
+    {
+      "id": "hollow-hold",
+      "name": "Hollow Hold",
+      "description": "Supine floor, shoulders and straight legs slightly lifted, arms extended overhead, curved hollow-body hold.",
+      "asset": "assets/images/exercises/hollow-hold.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Hollow body hold. DECISIVE POSITION: Supine floor, shoulders and straight legs slightly lifted, arms extended overhead, curved hollow-body hold."
+    },
+    {
+      "id": "dead-bug",
+      "name": "Dead Bug",
+      "description": "Supine on floor, one bent leg raised 90 degrees and opposite arm vertical, other leg and arm extended low away from body.",
+      "asset": "assets/images/exercises/dead-bug.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Dead bug. DECISIVE POSITION: Supine on floor, one bent leg raised 90 degrees and opposite arm vertical, other leg and arm extended low away from body."
+    },
+    {
+      "id": "pallof-press",
+      "name": "Pallof Press",
+      "description": "Standing SIDEWAYS to cable tower, both hands pushing cable handle straight forward at chest height, resisting sideways pull.",
+      "asset": "assets/images/exercises/pallof-press.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Cable Pallof press. DECISIVE POSITION: Standing SIDEWAYS to cable tower, both hands pushing cable handle straight forward at chest height, resisting sideways pull."
+    },
+    {
+      "id": "russian-twist",
+      "name": "Russian Twists",
+      "description": "Seated on mat leaning torso backward, knees bent, hands together rotated toward ONE hip.",
+      "asset": "assets/images/exercises/russian-twist.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Russian twist. DECISIVE POSITION: Seated on mat leaning torso backward, knees bent, hands together rotated toward ONE hip."
+    },
+    {
+      "id": "kettlebell-swing",
+      "name": "Kettlebell-Swings",
+      "description": "Standing at top of two-hand kettlebell swing, kettlebell forward at chest height, straight arms, hips extended.",
+      "asset": "assets/images/exercises/kettlebell-swing.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Kettlebell swing. DECISIVE POSITION: Standing at top of two-hand kettlebell swing, kettlebell forward at chest height, straight arms, hips extended."
+    },
+    {
+      "id": "thruster",
+      "name": "Kurzhantel-Thruster",
+      "description": "Standing at TOP of a dumbbell thruster with two dumbbells overhead, legs straight, no barbell.",
+      "asset": "assets/images/exercises/thruster.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Dumbbell thruster. DECISIVE POSITION: Standing at TOP of a dumbbell thruster with two dumbbells overhead, legs straight, no barbell."
+    },
+    {
+      "id": "clean-press",
+      "name": "Langhantel-Umsetzen und Drücken",
+      "description": "Barbell clean-and-press in FRONT RACK phase, bar on front shoulders, standing upright, elbows forward.",
+      "asset": "assets/images/exercises/clean-press.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Barbell clean and press. DECISIVE POSITION: Barbell clean-and-press in FRONT RACK phase, bar on front shoulders, standing upright, elbows forward."
+    },
+    {
+      "id": "burpee",
+      "name": "Burpees",
+      "description": "Burpee at low squat transition: crouched with BOTH hands on floor ready to kick feet back, no equipment.",
+      "asset": "assets/images/exercises/burpee.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Burpee. DECISIVE POSITION: Burpee at low squat transition: crouched with BOTH hands on floor ready to kick feet back, no equipment."
+    },
+    {
+      "id": "mountain-climber",
+      "name": "Mountain Climbers",
+      "description": "Straight-arm high plank, ONE knee driven forward toward chest, other leg straight behind.",
+      "asset": "assets/images/exercises/mountain-climber.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Mountain climber. DECISIVE POSITION: Straight-arm high plank, ONE knee driven forward toward chest, other leg straight behind."
+    },
+    {
+      "id": "treadmill",
+      "name": "Laufband",
+      "description": "Person running on clearly visible compact treadmill belt with front console, no outdoor scenery.",
+      "asset": "assets/images/exercises/treadmill.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Treadmill running. DECISIVE POSITION: Person running on clearly visible compact treadmill belt with front console, no outdoor scenery."
+    },
+    {
+      "id": "outdoor-run",
+      "name": "Laufen im Freien",
+      "description": "Person running without equipment, airborne stride, one knee forward and opposite arm forward, no scenery.",
+      "asset": "assets/images/exercises/outdoor-run.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Outdoor running. DECISIVE POSITION: Person running without equipment, airborne stride, one knee forward and opposite arm forward, no scenery."
+    },
+    {
+      "id": "walking",
+      "name": "Gehen",
+      "description": "Person walking upright with heel landing and opposite arm swinging, no equipment, no running airborne pose.",
+      "asset": "assets/images/exercises/walking.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Walking. DECISIVE POSITION: Person walking upright with heel landing and opposite arm swinging, no equipment, no running airborne pose."
+    },
+    {
+      "id": "bike",
+      "name": "Fahrradergometer",
+      "description": "Person seated on upright stationary exercise bike, hands on fixed handlebar, feet on pedals, clear bike machine.",
+      "asset": "assets/images/exercises/bike.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Stationary bike. DECISIVE POSITION: Person seated on upright stationary exercise bike, hands on fixed handlebar, feet on pedals, clear bike machine."
+    },
+    {
+      "id": "elliptical",
+      "name": "Crosstrainer",
+      "description": "Person on elliptical cross trainer, standing feet on long pedals, hands holding upright moving levers.",
+      "asset": "assets/images/exercises/elliptical.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Elliptical trainer. DECISIVE POSITION: Person on elliptical cross trainer, standing feet on long pedals, hands holding upright moving levers."
+    },
+    {
+      "id": "rowing",
+      "name": "Ruderergometer",
+      "description": "Person on CARDIO rowing ergometer, seated sliding seat, legs nearly extended, horizontal handle near abdomen, visible front flywheel and long rail.",
+      "asset": "assets/images/exercises/rowing.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Rowing ergometer. DECISIVE POSITION: Person on CARDIO rowing ergometer, seated sliding seat, legs nearly extended, horizontal handle near abdomen, visible front flywheel and long rail."
+    },
+    {
+      "id": "stair-climber",
+      "name": "Treppensteiger",
+      "description": "Person stepping onto circulating stairs of a stair-climber machine, one foot higher than other, console and stairs visible.",
+      "asset": "assets/images/exercises/stair-climber.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Stair climber. DECISIVE POSITION: Person stepping onto circulating stairs of a stair-climber machine, one foot higher than other, console and stairs visible."
+    },
+    {
+      "id": "air-bike",
+      "name": "Air Bike",
+      "description": "Person on fan-wheel AIR BIKE, large front FAN, hands holding two long moving arm levers, pedaling.",
+      "asset": "assets/images/exercises/air-bike.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Air bike. DECISIVE POSITION: Person on fan-wheel AIR BIKE, large front FAN, hands holding two long moving arm levers, pedaling."
+    },
+    {
+      "id": "ski-erg",
+      "name": "Ski-Ergometer",
+      "description": "Standing facing tall ski-ergometer, torso hinged forward, both handles pulled down beside hips, overhead cords.",
+      "asset": "assets/images/exercises/ski-erg.png",
+      "status": "reviewed",
+      "prompt": "Original BERKK exercise-library illustration. ONE isolated faceless adult athletic person in the specified decisive exercise position with the specified equipment; entire body and machine within a centered square frame with 10% transparent padding. Mature clean editorial silhouette: filled sculptural forms, broad subtle matte planes, plausible anatomy, no thin stick figure, no contour-only line drawing, no muscular anatomy diagram, no photo. Warm gray body #82746C/#4C4140, dark warm CHARCOAL clothes and equipment #44383A, slightly lighter equipment edges. ONLY a small burnt-orange #F15A22 seam, shoe detail or equipment rim, under 5% of image; NEVER an orange shirt or orange trousers. Readable on near-black #151116 at 76px. Side or three-quarter view exposing the decisive position; no scenery, background, captions, numbers, watermarks, border, decorative glow or copied fitness-app art. Actual transparent background. One exercise only, not a collage. Square 1024px preferred. Exercise: Ski erg. DECISIVE POSITION: Standing facing tall ski-ergometer, torso hinged forward, both handles pulled down beside hips, overhead cords."
+    }
+  ]
+}

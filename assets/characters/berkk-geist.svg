@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">BERKK Geist</title>
+  <defs>
+    <linearGradient id="body" x1="0.08" y1="0.04" x2="0.88" y2="1" objectBoundingBox="true">
+      <stop offset="0" stop-color="#FFECCF"/>
+      <stop offset="0.35" stop-color="#FFAE77"/>
+      <stop offset="0.68" stop-color="#EF684C"/>
+      <stop offset="1" stop-color="#773A78"/>
+    </linearGradient>
+  </defs>
+  <path id="ghost-body" d="M112 143 C99 94 124 56 168 52 C207 48 220 81 247 82 C277 83 292 48 333 53 C383 60 409 99 398 144 C388 184 379 206 388 250 C397 290 424 315 410 362 C399 402 369 422 335 420 C297 418 279 386 257 385 C234 383 222 418 181 420 C141 422 106 400 101 362 C94 319 116 292 122 250 C130 208 121 178 112 143 Z" fill="url(#body)"/>
+  <ellipse id="eye-left" cx="214" cy="218" rx="19" ry="34" fill="#171019"/>
+  <ellipse id="eye-right" cx="293" cy="218" rx="19" ry="34" fill="#171019"/>
+</svg>

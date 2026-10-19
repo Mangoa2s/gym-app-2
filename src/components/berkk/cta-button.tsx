@@ -1,41 +1,34 @@
-import { BlurView } from 'expo-blur';
-import { LinearGradient } from 'expo-linear-gradient';
-import { useState } from 'react';
-import { Pressable, StyleSheet, Text } from 'react-native';
+import { useRef } from 'react';
+import { Pressable, View } from 'react-native';
+import Animated, { Extrapolation, interpolate, useAnimatedStyle } from 'react-native-reanimated';
 
-import { StartIcon } from '@/components/berkk/icons';
-import { Berkk, BerkkFonts } from '@/constants/theme';
+import { BerkkActionSurface } from '@/components/berkk/berkk-action-surface';
+import { useWorkoutMotion } from '@/components/berkk/workout-motion-provider';
+import { WorkoutMotion as M } from '@/constants/workout-motion';
 
-const RADIUS = 26;
+type CtaButtonProps = {
+  onPress: (node: View | null) => void;
+  running?: boolean;
+};
 
-/**
- * Full-width primary action. Ported from the mockup's `startStyle`/`onStart` logic:
- * tapping toggles between the warm gradient "Workout starten" and a glass
- * "Workout läuft" state, with a quick 0.975 press-scale.
- */
-export function CtaButton() {
-  const [started, setStarted] = useState(false);
-
+/** Keep the measured launch origin and the existing shared entrance clock. */
+export function CtaButton({ onPress, running = false }: CtaButtonProps) {
+  const node = useRef<View>(null);
+  const { clock, overlayReady, reduced } = useWorkoutMotion();
+  const surface = useAnimatedStyle(() => ({
+    opacity: overlayReady.value ? 0 : 1,
+    transform: [{ scale: reduced ? 1 : interpolate(clock.value, [0, M.compressEnd, M.duration], [1, M.buttonScale, 1], Extrapolation.CLAMP) }],
+  }));
+  const label = useAnimatedStyle(() => ({
+    opacity: interpolate(clock.value, [0, M.compressEnd, M.duration - 1, M.duration], [1, 0, 0, 1], Extrapolation.CLAMP),
+  }));
   return (
-    <Pressable onPress={() => setStarted((s) => !s)} style={({ pressed }) => ({ transform: [{ scale: pressed ? 0.975 : 1 }] })}>
-      <LinearGradient
-        colors={started ? Berkk.ctaGlassGradient : Berkk.ctaGradient}
-        start={{ x: 0, y: 0 }}
-        end={{ x: 1, y: 0.35 }}
-        className="h-20 flex-row items-center gap-3.5 px-[26px] overflow-hidden"
-        style={{ borderRadius: RADIUS }}>
-        {started && <BlurView intensity={40} tint="dark" style={StyleSheet.absoluteFill} />}
-        <StartIcon size={26} color={started ? Berkk.ink : Berkk.ctaInk} />
-        <Text
-          style={{
-            fontFamily: BerkkFonts.black,
-            color: started ? Berkk.ink : Berkk.ctaInk,
-            fontSize: 22,
-            letterSpacing: -0.9,
-          }}>
-          {started ? 'Workout läuft' : 'Workout starten'}
-        </Text>
-      </LinearGradient>
-    </Pressable>
+    <View ref={node} collapsable={false}>
+      <Pressable onPress={() => onPress(node.current)} accessibilityRole="button" accessibilityLabel={running ? 'Zum Training' : 'Workout starten'}>
+        <Animated.View style={surface}>
+          <BerkkActionSurface variant="start" label={running ? 'Zum Training' : 'Workout starten'} reduced={reduced} labelStyle={label} />
+        </Animated.View>
+      </Pressable>
+    </View>
   );
 }

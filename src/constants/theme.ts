@@ -70,6 +70,10 @@ export const MaxContentWidth = 800;
  * verbatim from that file; treat it as the source of truth, not this file.
  */
 export const Berkk = {
+  // Running training keeps the working center darker than the home glass.
+  workoutBackground: '#09080B',
+  // Warm orange-red opening and charcoal/violet base for detail sheets.
+  detailGradient: ['#613328', '#30202D', '#19151F'] as const,
   // Screen background: 6-stop diagonal near-black gradient (168deg)
   backgroundGradient: ['#16141A', '#1B1720', '#241A1E', '#2A1C18', '#1A1620', '#121016'] as const,
   backgroundGradientLocations: [0, 0.26, 0.5, 0.7, 0.9, 1] as const,
@@ -97,18 +101,19 @@ export const Berkk = {
   dotOn: 'rgba(244,239,233,0.66)',
   dotOff: 'rgba(244,239,233,0.16)',
   dotHot: '#FF7A3C',
+  dotBorder: 'rgba(244,239,233,0.22)',
   navBadge: '#F15A22',
+
+  // Anchor/link accent from the mockup's `a{color:#FF8A4C}a:hover{color:#FFA873}`
+  link: '#FF8A4C',
+  linkPressed: '#FFA873',
+
+  // Running-workout photo screen: annotation rings and frosted pills.
+  annotation: '#E8632B',
+  pillWash: 'rgba(255,247,238,0.14)',
+  pillBorder: 'rgba(255,255,255,0.2)',
 } as const;
 
-/**
- * Typography exactly as specified in the mockup: Space Grotesk for body/meta text,
- * Schibsted Grotesk (which has genuine 800/900 cuts) for the headline and hero numbers.
- */
-export const BerkkFonts = {
-  black: 'SchibstedGrotesk_900Black',
-  extrabold: 'SchibstedGrotesk_800ExtraBold',
-  bold: 'SpaceGrotesk_700Bold',
-  semibold: 'SpaceGrotesk_600SemiBold',
-  medium: 'SpaceGrotesk_500Medium',
-  regular: 'SpaceGrotesk_400Regular',
-} as const;
+
+// Fonts and design tokens live in a dependency-free file (testable in node); this stays the one entry point.
+export { BerkkFonts, Tokens } from './tokens';
